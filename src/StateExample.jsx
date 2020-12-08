@@ -1,5 +1,7 @@
 import React, { useState, Component } from 'react'
 
+// Example using react states in a Class based component and Functional component.
+
 // function FunctionalComponent() {
 //     const [name, setName] = useState('');
 
@@ -27,10 +29,11 @@ import React, { useState, Component } from 'react'
 //         </div>
 //     );
 // }
+// export default FunctionalComponent;
 
 
-// In react, class base components need to always extend Component.
-class FunctionalComponent extends Component {
+// In react, class based components need to always extend Component.
+class ClassComponent extends Component {
     
     constructor() {
         super();
@@ -86,4 +89,4 @@ class FunctionalComponent extends Component {
     }
 }
 
-export default FunctionalComponent;
+export default ClassComponent;

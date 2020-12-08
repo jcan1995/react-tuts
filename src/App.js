@@ -5,6 +5,7 @@ import StateExample from './StateExample';
 function App() {
   return (
     <div className="App">
+      {/* Render StateExample component */}
       <StateExample />
     </div>
   );
